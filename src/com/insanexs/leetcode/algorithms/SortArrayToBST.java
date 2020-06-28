@@ -53,14 +53,14 @@ public class SortArrayToBST {
 	}
 	
 	public static void main(String[] arg){
-		int[] num = {1,3};
-		TreeNode head = new SortArrayToBST().sortArrayToBST(num);
-		List<Integer> list = SameTree.LevelOrderTra(head);
-		for(Integer i : list){
-			if(i == null)
-				System.out.print("# ");
-			else
-				System.out.print(i + " ");
-		}
+//		int[] num = {1,3};
+//		TreeNode head = new SortArrayToBST().sortArrayToBST(num);
+//		List<Integer> list = SameTree.LevelOrderTra(head);
+//		for(Integer i : list){
+//			if(i == null)
+//				System.out.print("# ");
+//			else
+//				System.out.print(i + " ");
+//		}
 	}
 }
