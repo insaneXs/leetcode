@@ -28,7 +28,7 @@ public class DivideTwoIntegers {
         long ldividend = Math.abs(new Long(dividend));
         long ldivisor = Math.abs(new Long(divisor));
 
-        int ret = 0; long multi = ldivisor, tmpRet;
+        int ret = 0; long multi, tmpRet;
 
         while(ldividend >= ldivisor){
             tmpRet = 1;
