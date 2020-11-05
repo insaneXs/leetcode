@@ -7,4 +7,11 @@ public class ListNode {
 		this.val = x;
 		next = null;
 	}
+
+	@Override
+	public String toString() {
+		return "["
+				 + val +
+				']';
+	}
 }
